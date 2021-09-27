@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --primary-color: rgb(1, 41, 28);
+    --secondary-color: rgb(25, 116, 87);
+    --tertiary-color: rgb(176, 214, 202);
 }
 
 * {
@@ -10,6 +10,54 @@
     padding: 0;
 }
 
+body {
+    background-color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 90px;
+    align-items: center;
+}
+
+header h1{
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    padding-right: 10px;
+    font-size: 36px;
+    background-color: var(--tertiary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 10px;
+    font-weight: normal;
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
 .hero {
     background-image: url('../assets/Portfolio\ Banner.png');
     background-size: cover;
@@ -18,4 +66,6 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    height: 396px;
 }
+
