@@ -60,7 +60,7 @@ header nav ul li a {
     color: black;
 }
 .hero {
-    background-image: url('../assets/Portfolio\ Banner.png');
+    background-image: url('../Portfolio\ Banner.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -83,6 +83,8 @@ header nav ul li a {
     padding-top: 40px;
     margin: 0 auto 35px auto;
     width: 40%;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
 }
 
 .bio p {
@@ -92,4 +94,24 @@ width: 75%;
 margin: 0 auto;
 font-size: 20px;
 text-align: center;
+}
+
+.mainSample {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sampleList {
+    margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
