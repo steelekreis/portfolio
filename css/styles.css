@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(1, 41, 28);
+    --primary-color: rgb(1, 71, 49);
     --secondary-color: rgb(25, 116, 87);
     --tertiary-color: rgb(176, 214, 202);
 }
@@ -55,8 +55,9 @@ header nav ul {
 header nav ul li a {
     padding: 10px 10px;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
 }
 .hero {
     background-image: url('../assets/Portfolio\ Banner.png');
@@ -66,6 +67,29 @@ header nav ul li a {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 396px;
+    height: 250px;
 }
 
+
+
+.flex-row {
+    display: flex;
+}
+
+.sectiontitle {
+    font-size: 40px;
+    color: var(--primary-color);
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto 35px auto;
+    width: 40%;
+}
+
+.bio p {
+line-height: 1.5;
+color: var(--secondary-color);
+width: 75%;
+margin: 0 auto;
+font-size: 20px;
+text-align: center;
+}
